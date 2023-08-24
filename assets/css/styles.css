@@ -19,6 +19,10 @@ a:visited {
 color: gray;
 }
 
+p > img {
+max-width: 100%;
+}
+
 abbr {
     text-decoration: none;
 }
@@ -366,7 +370,7 @@ table td {
 #page-header,
 #page-toc,
 #page-content {
-    margin: 48px 24px 0px 24px;
+    margin: 0px 24px 0px 24px;
     max-width: 640px;
     color: white;
 }
@@ -375,8 +379,8 @@ table td {
     #page-header,
     #page-toc,
     #page-content {
-        margin: 48px auto 0px auto;
-        width: 640px;
+        margin: 0px auto 0px auto;
+        max-width: 640px;
     }
 }
 
