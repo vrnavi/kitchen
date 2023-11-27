@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "https://kitchen.0ccu.lt"
 title = "The 0ccultist's Kitchen"
 theme = "hugo-geekdoc"
 
