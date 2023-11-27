@@ -1,0 +1,46 @@
+---
+properties:
+  - name: staffrole
+    type: int
+    description: The server's Staff role. If you have an admin/moderator system, this would be the moderators.
+    required: false
+
+  - name: exstaffrole
+    type: int
+    description: If you have a role used for "Ex-Staff", put it here. Thiis will enable Staff members to step down at any point.
+    required: false
+
+  - name: botrole
+    type: int
+    description: The server's "bots" role. Configuring this allows bots to speak in lockdowns and toss channels.
+    required: false
+
+  - name: raidrole
+    type: int
+    description: Configuring this role will enable Raidmode to be set to medium, and will be automatically applied to new users if so.
+    required: false
+
+  - name: staffchannel
+    type: int
+    description: This channel is where important notices (user tossed, raidmode updates) will go.
+    required: false
+
+  - name: watchchannel
+    type: int
+    description: Dishwasher wil create threads in this channel for watched users.
+    required: false
+
+  - name: rulesurl
+    type: string
+    description: Configure the URL to your server rules. This will be sent along with warnings. You can also use a channel mention with `<#CHANNELID>`.
+    required: false
+
+  - name: appealurl
+    type: string
+    description: Configure the URL to your method of appeal. This will be sent along with bans. You can also use a channel mention with `<#CHANNELID>`.
+    required: false
+
+  - name: noreplythreshold
+    type: int
+    description: If configured, Dishwasher will ping the `staffrole` after this threshold of reply pings, if it is configured as well.
+    required: false

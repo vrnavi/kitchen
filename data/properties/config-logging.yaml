@@ -1,0 +1,28 @@
+---
+properties:
+  - name: modlog
+    type: int
+    description: |
+      Moderation actions are forwarded to this channel ID. Moderation actions include:
+
+      - bans
+      - unbans
+      - kicks
+      - warnings
+      - tosses
+      - purges
+      - super reaction autoremoves
+      - lockdowns
+
+      and more.
+    required: false
+
+  - name: serverlog
+    type: int
+    description: Server updates are forwarded to this channel ID. This includes updates to the server, channels, and roles.
+    required: false
+
+  - name: userlog
+    type: int
+    description: User updates are forwarded to this channel ID. This includes name updates, message edits and deletions, joins and leaves, and more.   
+    required: false

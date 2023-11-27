@@ -1,0 +1,31 @@
+---
+properties:
+  - name: embedenable
+    type: bool
+    defaultValue: false
+    description: This will control the bot's message link functionality, including Discord message quoting, and Twitter/X and TikTok conversion.
+    required: false
+
+  - name: translateenable
+    type: bool
+    defaultValue: false
+    description: This will control the bot's reaction translation functionality.
+    required: false
+
+  - name: burstreactsenable
+    type: bool
+    defaultValue: false
+    description: If enabled, the bot will automatically delete Super Reactions where it can.
+    required: false
+
+  - name: autoreadableenable
+    type: bool
+    defaultValue: false
+    description: If enabled, the bot will automatically format user nicknames to be readable with a US/EU keyboard.
+    required: false
+
+  - name: paidforprofileeffectsenable
+    type: bool
+    defaultValue: false
+    description: If enabled, the bot will have a random 1/100 chance to laugh at any user with an avatar decoration.
+    required: false

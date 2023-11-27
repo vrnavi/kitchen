@@ -1,0 +1,11 @@
+---
+properties:
+  - name: cotdrole
+    type: int
+    description: The role ID to be used for a Color of The Day. Preferably one that users can assign to themselves.
+    required: false
+
+  - name: cotdname
+    type: string
+    description: The name of the role used in Color of The Day. For example, "The Rainbow - Pale Blue", where "The Rainbow" is the role name.
+    required: false

@@ -1,0 +1,21 @@
+---
+properties:
+  - name: surveychannel
+    type: int
+    description: Dishwasher will forward moderation actions to this channel, as an archive of reasons.
+    required: false
+
+  - name: startingcase
+    type: int
+    description: The case ID to start from. If you don't have a previous system, use 0, or 1 if you do not need a test case.
+    required: false
+
+  - name: loggingtypes
+    type: list
+    description: Dishwasher will recognize "ban", "unban", "kick", "softban", "timeout", "promotion", and "demotion". The latter two require `loggingroles` to be configured.
+    required: false
+
+  - name: loggingroles
+    type: list
+    description: This is a list of role IDs to be tracked when using "promotion" or "demotion" in `loggingtypes`.
+    required: false

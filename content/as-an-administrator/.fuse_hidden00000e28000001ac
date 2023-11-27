@@ -1,0 +1,11 @@
+---
+title: Custom Prefixes
+weight: 10
+---
+
+On the public bot, each user can have a maximum of `3` custom prefixes.
+
+<!--more-->
+
+{{< toc >}}
+

@@ -1,0 +1,9 @@
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+._*
+.hugo_build.lock
+content/post/markdown-syntax.md
+content/post/rich-content.md
+node_modules/

@@ -1,0 +1,21 @@
+---
+title: Reply Ping Preferences
+weight: 20
+---
+
+If you do not like being pinged by replies, wish you'd be ping replied later, or wished people would ping you in replies, you can adjust your reply ping preferences.
+
+<!--more-->
+
+{{< toc >}}
+
+## Configuration
+
+- `replyconfig`<br>
+Shows your currently active prefixes.
+
+![Reply Preferences](/img/examples/noreply-example.gif)
+
+### Please Reply Ping
+
+When set to Please Reply ping, Dishwasher will automatically ping you if a user relies to your message without pinging you.

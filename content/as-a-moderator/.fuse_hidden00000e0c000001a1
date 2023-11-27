@@ -1,0 +1,67 @@
+---
+title: Chat Enhancements
+weight: 0
+---
+
+Dishwasher holds a number of features to add to a conversation.
+
+<!--more-->
+
+{{< toc >}}
+
+## Quoting
+
+If enabled by your server's admins, you can quote a message simply by posting a Discord message link in chat.
+
+![Discord Message Quoting](/img/examples/quoting-example.png)
+
+## Linking
+
+If enabled by your server's admins, Dishwasher will automatically convert Twitter/X links into `vxtwitter.com` links.
+
+![Twitter Auto-Conversion](/img/examples/linking-example.png)
+
+## Translating
+
+If enabled by your server's admins, you can react to a message with a country's flag to translate the message into the country's language.
+
+![Translating A Message](/img/examples/translation-example.gif)
+
+Once translated, you can click the DeepL or Google Translate icon to switch between translation services.
+
+
+{{< expand "Supported Languages" >}}
+| Flag         | Language     |
+|:--------------:|:-----------:|
+| 🇧🇬 | Bulgarian |
+| 🇨🇿 | Czech |
+| 🇩🇰 | Danish |
+| 🇩🇪 | German |
+| 🇬🇷 | Greek |
+| 🇬🇧 | British English |
+| 🇺🇸 | American English |
+| 🇪🇸 | Spanish |
+| 🇪🇪 | Estonian |
+| 🇫🇮 | Finnish |
+| 🇫🇷 | French |
+| 🇭🇺 | Hungarian |
+| 🇮🇩 | Indonesian |
+| 🇮🇹 | Italian |
+| 🇯🇵 | Japanese |
+| 🇰🇷 | Korean |
+| 🇱🇹 | Lithuanian |
+| 🇱🇻 | Latvian |
+| 🇳🇴 | Norwegian |
+| 🇳🇱 | Dutch |
+| 🇵🇱 | Polish |
+| 🇧🇷 | Brazilian Portugese |
+| 🇵🇹 | Portugese |
+| 🇷🇴 | Romanian |
+| 🇷🇺 | Russian |
+| 🇸🇰 | Slovak |
+| 🇸🇮 | Slovenian |
+| 🇸🇪 | Swedish |
+| 🇹🇷 | Turkish |
+| 🇺🇦 | Ukrainian |
+| 🇨🇳 | Simplified Chinese |
+{{< /expand >}}

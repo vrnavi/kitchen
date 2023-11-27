@@ -1,0 +1,21 @@
+---
+properties:
+  - name: tossrole
+    type: int
+    description: The role that will be applied to users when they are tossed. This role should prevent users from speaking anywhere else, but you can configure it to your liking.
+    required: false
+
+  - name: tosscategory
+    type: int
+    description: The category in which new toss sessions will be made in.
+    required: false
+
+  - name: tosschannels
+    type: list
+    description: A list of channel names that Dishwasher will use when making new toss sessions. Maximum of 25.
+    required: false
+
+  - name: drivefolder
+    type: string
+    description: Configuring this will enable Google Drive archival. Please ask in the support server before configuring this setting.
+    required: false

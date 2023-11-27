@@ -1,0 +1,13 @@
+---
+title: The Raidmode System
+weight: 30
+---
+
+The Raidmode system has a few options to get a handle on a raid, aside from using Discord's standard fare.
+
+<!--more-->
+
+{{< toc >}}
+
+- `raidmode` ["on"/"off" (show current state)]<br>
+Toggles Raidmode, a feature to post all new users in the Staff channel.
