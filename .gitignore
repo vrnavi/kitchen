@@ -7,3 +7,4 @@
 content/post/markdown-syntax.md
 content/post/rich-content.md
 node_modules/
+.fuse_hidden*
