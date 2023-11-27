@@ -7,19 +7,19 @@
 /* Light mode theming */
 :root,
 :root[color-theme="light"] {
-  --header-background: #4ec58a;
-  --header-font-color: #ffffff;
+  --header-background: #ffffff;
+  --header-font-color: #000000;
 
   --body-background: #ffffff;
-  --body-font-color: #343a40;
+  --body-font-color: #000000;
 
   --mark-color: #ffab00;
 
-  --button-background: #62cb97;
-  --button-border-color: #4ec58a;
+  --button-background: #ffffff;
+  --button-border-color: #000000;
 
-  --link-color: #518169;
-  --link-color-visited: #c54e8a;
+  --link-color: #777777;
+  --link-color-visited: #aaaaaa;
 
   --code-background: #f5f6f8;
   --code-accent-color: #e3e7eb;
@@ -31,31 +31,34 @@
   --code-copy-border-color: #adb4bc;
   --code-copy-success-color: #00c853;
 
-  --accent-color: #e9ecef;
-  --accent-color-lite: #f8f9fa;
+  --accent-color: #ffffff;
+  --accent-color-lite: #ffffff;
 
   --control-icons: #b2bac1;
 
-  --footer-background: #112b3c;
+  --footer-background: #000000;
   --footer-font-color: #ffffff;
-  --footer-link-color: #ffcc5c;
-  --footer-link-color-visited: #ffcc5c;
+  --footer-link-color: #777777;
+  --footer-link-color-visited: #aaaaaa;
+}
+.gdoc-button:hover[color-theme="light"] {
+  color: #000000 !important;
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --header-background: #4ec58a;
-    --header-font-color: #ffffff;
+    --header-background: #ffffff;
+    --header-font-color: #000000;
 
     --body-background: #ffffff;
-    --body-font-color: #343a40;
+    --body-font-color: #000000;
 
     --mark-color: #ffab00;
 
-    --button-background: #62cb97;
-    --button-border-color: #4ec58a;
+    --button-background: #ffffff;
+    --button-border-color: #000000;
 
-    --link-color: #518169;
-    --link-color-visited: #c54e8a;
+    --link-color: #777777;
+    --link-color-visited: #aaaaaa;
 
     --code-background: #f5f6f8;
     --code-accent-color: #e3e7eb;
@@ -67,15 +70,18 @@
     --code-copy-border-color: #adb4bc;
     --code-copy-success-color: #00c853;
 
-    --accent-color: #e9ecef;
-    --accent-color-lite: #f8f9fa;
+    --accent-color: #ffffff;
+    --accent-color-lite: #ffffff;
 
     --control-icons: #b2bac1;
 
-    --footer-background: #112b3c;
+    --footer-background: #000000;
     --footer-font-color: #ffffff;
-    --footer-link-color: #ffcc5c;
-    --footer-link-color-visited: #ffcc5c;
+    --footer-link-color: #777777;
+    --footer-link-color-visited: #aaaaaa;
+  }
+  .gdoc-button:hover {
+    color: #000000 !important;
   }
 }
 
@@ -105,8 +111,8 @@
   --code-copy-border-color: #6b7784;
   --code-copy-success-color: #37905c;
 
-  --accent-color: #2b3035;
-  --accent-color-lite: #2f353a;
+  --accent-color: #000000;
+  --accent-color-lite: #000000;
 
   --control-icons: #b2bac1;
 
@@ -114,6 +120,9 @@
   --footer-font-color: #000000;
   --footer-link-color: #aaaaaa;
   --footer-link-color-visited: #777777;
+}
+.gdoc-button:hover[color-theme="dark"] {
+  color: #ffffff !important;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -150,5 +159,8 @@
     --footer-font-color: #000000;
     --footer-link-color: #aaaaaa;
     --footer-link-color-visited: #777777;
+  }
+  .gdoc-button:hover {
+    color: #ffffff !important;
   }
 }
