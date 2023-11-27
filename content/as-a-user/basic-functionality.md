@@ -78,7 +78,7 @@ Uploads files and/or links to **catbox.moe**.
 A DM only command which sends a report to a server's configured Staff channel.<br>
 Reports can be anonymous if desired, however user IDs will be saved for 3 days.
 
-- `roll` {XdY (1d6)]
+- `roll` {XdY (1d6)}<br>
 Rolls the dice for you.
 
 - `server`<br>
