@@ -32,7 +32,7 @@ properties:
 
   - name: watchchannel
     type: int
-    description: Dishwasher wil create threads in this channel for watched users.
+    description: Sangou wil create threads in this channel for watched users.
     required: false
 
   - name: rulesurl

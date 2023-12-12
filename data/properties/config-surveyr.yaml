@@ -2,7 +2,7 @@
 properties:
   - name: surveychannel
     type: int
-    description: Dishwasher will forward moderation actions to this channel, as an archive of reasons.
+    description: Sangou will forward moderation actions to this channel, as an archive of reasons.
     required: false
 
   - name: startingcase
@@ -12,7 +12,7 @@ properties:
 
   - name: loggingtypes
     type: list
-    description: Dishwasher will recognize "ban", "unban", "kick", "softban", "timeout", "promotion", and "demotion". The latter two require `loggingroles` to be configured.
+    description: Sangou will recognize "ban", "unban", "kick", "softban", "timeout", "promotion", and "demotion". The latter two require `loggingroles` to be configured.
     required: false
 
   - name: loggingroles

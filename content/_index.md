@@ -25,7 +25,7 @@ Keep track of your users histories with the logs function, aggregating a user's 
 
 ### Slash commandless
 
-Don't get tripped over Discord's nightmarish slash command system, as Dishwasher allows custom prefixes to be set.
+Don't get tripped over Discord's nightmarish slash command system, as Sangou allows custom prefixes to be set.
 
 <--->
 

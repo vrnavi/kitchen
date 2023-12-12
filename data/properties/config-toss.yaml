@@ -12,7 +12,7 @@ properties:
 
   - name: tosschannels
     type: list
-    description: A list of channel names that Dishwasher will use when making new toss sessions. Maximum of 25.
+    description: A list of channel names that Sangou will use when making new toss sessions. Maximum of 25.
     required: false
 
   - name: drivefolder
