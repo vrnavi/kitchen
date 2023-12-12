@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /tags/*
 
-Sitemap: https://kitchen.0ccu.lt/sitemap.xml
+Sitemap: https://3gou.0ccu.lt/sitemap.xml
