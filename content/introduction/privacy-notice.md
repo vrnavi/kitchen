@@ -3,7 +3,7 @@ title: Privacy Notice
 weight: -10
 ---
 
-By default, Dishwasher will collect analytics about how it is being used.
+By default, Sangou will collect analytics about how he is being used.
 
 <!--more-->
 

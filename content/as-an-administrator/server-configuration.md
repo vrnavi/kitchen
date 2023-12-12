@@ -3,7 +3,7 @@ title: Server Configuration
 weight: -20
 ---
 
-To get the most out of Dishwasher, you'll have to configure it for your server. The stock configuration (which you will see when downloading the configuration file for the first time) includes comments to assist you.
+To get the most out of Sangou, you'll have to configure him for your server. The stock configuration (which you will see when downloading the configuration file for the first time) includes comments to assist you.
 
 <!--more-->
 
@@ -27,7 +27,7 @@ Shows the stock configuration.
 
 ## Configuration variables
 
-This is a list of every configuration variable available in Dishwasher.
+This is a list of every configuration variable available for Sangou.
 
 ### Logging
 
@@ -81,7 +81,7 @@ Below is the stock configuration, showing every available config setting, and it
 # Note that it will use the first one it finds, and it is
 # case-sensitive.
 # For example:
-# staffrole: "Server Staff"
+# modrole: "Server Staff"
 
 logging:
   # The bot will forward moderation actions to this channel ID.
@@ -92,8 +92,10 @@ logging:
   userlog: 
 
 staff:
-  # The role ID for the Staff role.
-  staffrole: 
+  # The role ID for your admin role.
+  adminrole: 
+  # The role ID for your moderator role.
+  modrole: 
   # The role ID for the Ex-Staff role, if you use one.
   exstaffrole: 
   # The role ID for bots. This will allow bots to speak during lockdowns, and in toss channels.
@@ -159,5 +161,5 @@ reaction:
   paidforprofileeffectsenable: false
 
 metadata:
-  version: 2
+  version: 3
 ```

@@ -3,7 +3,7 @@ title: The Infraction System
 weight: -10
 ---
 
-Dishwasher's userlog system is very complex, but easy to understand.
+Sangou's userlog system is very complex, but easy to understand.
 
 <!--more-->
 
@@ -18,12 +18,7 @@ Displays logs for a user.
 
 Logs will display all tosses, warns, kicks, bans, as well as the amount of notes they have.
 
-With the exception of warns and notes, you do not have to add these logs yourself. Dishwasher will track tosses, kicks, and bans for you.
-
-If you're trying to get information on a user all at once, this command is reccommended.
-
-- `fullinfo` [target]<br>
-A combination of `info` and `logs`.
+With the exception of warns and notes, you do not have to add these logs yourself. Sangou will track tosses, kicks, and bans for you.
 
 ## Managing warnings
 
@@ -33,7 +28,7 @@ Warns a user. This will DM the user with the reason for their warning.
 - `clearwarns` [target]<br>
 This will clear all warnings for a user.
 
-- `delwarn` [target] [index]
+- `delwarn` [target] [index]<br>
 This deletes a warning from a given index.
 
 ## Managing notes

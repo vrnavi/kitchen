@@ -1,19 +1,19 @@
 ---
-title: The Dishwasher's Documentation
+title: Sangou's Documentation
 geekdocNav: false
 geekdocAlign: center
 geekdocAnchor: false
 ---
 
-Dishwasher is an actively maintained **Discord** bot, originally made for the [OneShot Discord Server](https://discord.gg/oneshot).
+Sangou is an actively maintained **Discord** bot, originally made for the [OneShot Discord Server](https://discord.gg/oneshot).
 
 The bot is semi-public, and you may add it to your server by asking in the support server.
 
 {{< button size="large" relref="/introduction/before-you-start" >}}View Documentation{{< /button >}}
 {{< button size="large" href="https://discord.gg/p3MvpSvXrm" >}}Support Server{{< /button >}}
-{{< button size="large" href="https://github.com/vrnavi/dishwasher" >}}GitHub Repository{{< /button >}}
+{{< button size="large" href="https://github.com/vrnavi/sangou" >}}GitHub Repository{{< /button >}}
 
-## What the Dishwasher does
+## What Sangou does
 
 {{< columns >}}
 

@@ -20,11 +20,11 @@ Opens the Raidmode configuration screen.
 
 ### Off
 
-When set to Off, Dishwasher will only forward users under 24 hours old to the Staff channel.
+When set to Off, Sangou will only forward users under 24 hours old to the Staff channel.
 
 ### Low
 
-When set to Low, Dishwasher will forward all new users to the Staff channel.
+When set to Low, Sangou will forward all new users to the Staff channel.
 
 ![Raidmode Low Example](/img/examples/raidmode-low-example.png)
 
@@ -40,7 +40,7 @@ This is self explanatory. All new users will be kicked from the server.
 
 ## Message awaiting
 
-In all cases where Dishwasher forwards a new user to the Staff channel, it will wait for their first proper message.
+In all cases where Sangou forwards a new user to the Staff channel, it will wait for their first proper message.
 
 This is very useful in the event that you need to quickly see if a new user is spamming scam messages.
 

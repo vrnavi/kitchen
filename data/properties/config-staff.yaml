@@ -1,13 +1,18 @@
 ---
 properties:
-  - name: staffrole
+  - name: adminrole
     type: int
-    description: The server's Staff role. If you have an admin/moderator system, this would be the moderators.
+    description: The server's admin role.
+    required: false
+
+  - name: modrole
+    type: int
+    description: The server's moderator role. Commands requiring this will also work with adminrole.
     required: false
 
   - name: exstaffrole
     type: int
-    description: If you have a role used for "Ex-Staff", put it here. Thiis will enable Staff members to step down at any point.
+    description: If you have a role used for "Ex-Staff", put it here. Thiis will enable moderators to step down at any point.
     required: false
 
   - name: botrole
@@ -42,5 +47,5 @@ properties:
 
   - name: noreplythreshold
     type: int
-    description: If configured, Dishwasher will ping the `staffrole` after this threshold of reply pings, if it is configured as well.
+    description: If configured, Sangou will ping the `modrole` after this threshold of reply pings, if it is configured as well.
     required: false

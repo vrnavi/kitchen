@@ -15,7 +15,7 @@ Tossing is a very advanced system in which tossed users speak privately with the
 
 It's useful for defusing tense situations and removing problematic users from situations fast.
 
-In addition, Dishwasher can archive these sessions for you, whether on Google Drive or saved as a file on the platform itself.
+In addition, Sangou can archive these sessions for you, whether on Google Drive or saved as a file on the platform itself.
 
 To use this, the `staffchannel` setting and `toss` category in the server configuration must be filled out. `drivefolder` is optional, but enables archives to be automatically uploaded to a Google Drive folder. Please ask in the support server if you'd like to use a `drivefolder`.
 
@@ -29,7 +29,7 @@ Here is a brief rundown from the OneShot Discord Server's Staff Handbook:
 > 
 > Once you have their name, mention, or ID, simply use `pls toss USER`. If you are tossing multiple users, separate them with spaces, such as `pls toss USER1 USER2`.
 >
-> When tossing a user, `@Dishwasher` will create a new "session" for you, in `🚷 Lower Tower`, with a max of four sessions open at a time. The tossed user (or users) will be pinged, and given a timer to respond. When they do, or when the timer expires, you will be pinged.
+> When tossing a user, `@Sangou` will create a new "session" for you, in `🚷 Lower Tower`, with a max of four sessions open at a time. The tossed user (or users) will be pinged, and given a timer to respond. When they do, or when the timer expires, you will be pinged.
 >
 > Depending on the user, you'll take your next courses of action in the session channel. If they are uncooperative, they likely aren't a good fit for the server. Use your best judgement here.
 > 

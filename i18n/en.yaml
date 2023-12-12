@@ -35,7 +35,7 @@ posts_count:
 posts_tagged_with: All posts tagged with '{{ . }}'
 
 footer_build_with: >
-  Designed by <a href="https://0ccu.lt/" class="gdoc-footer__link">renavi</a> in <a href="https://starrypoint.me/" class="gdoc-footer__link">Starry Point</a>.
+  Designed by <a href="https://0ccu.lt/" class="gdoc-footer__link">renavi</a> in <a href="https://starrypoint.me/" class="gdoc-footer__link">Maine</a>.
 footer_legal_notice: Legal Notice
 footer_privacy_policy: Privacy Policy
 footer_content_license_prefix: >

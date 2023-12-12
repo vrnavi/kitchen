@@ -1,5 +1,5 @@
-baseURL = "https://kitchen.0ccu.lt"
-title = "The 0ccultist's Kitchen"
+baseURL = "https://3gou.0ccu.lt"
+title = "0ccultist's Netscape"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false
@@ -32,7 +32,7 @@ enableRobotsTXT = true
 
   # (Optional, default static/brand.svg) Set the path to a logo for the Geekdoc
   # relative to your 'static/' folder.
-  geekdocLogo = "cauldron.png"
+  geekdocLogo = "sangou.png"
 
   # (Optional, default false) Render menu from data file in 'data/menu/main.yaml'.
   # See also https://geekdocs.de/usage/menus/#bundle-menu.
@@ -60,7 +60,7 @@ enableRobotsTXT = true
 
   # (Optional, default true) Enables search function with flexsearch.
   # Index is built on the fly and might slow down your website.
-  geekdocSearch = false
+  geekdocSearch = true
 
   # (Optional, default false) Display search results with the parent folder as prefix. This
   # option allows you to distinguish between files with the same name in different folders.

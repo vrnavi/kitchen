@@ -3,7 +3,7 @@ title: Basic Functionality
 weight: -20
 ---
 
-Like any Discord bot, Dishwasher has tools at your disposal to moderate users.
+Like any Discord bot, Sangou has tools at your disposal to moderate users.
 
 <!--more-->
 
@@ -15,16 +15,9 @@ For your reference:
 - **{argument}** is an optional requirement.
 - argument **(default)** is the default if not specified.
 
-Dishwasher uses the `pls` invoker by default.
+Sangou uses the `pls` invoker by default.
 
 For example: `pls command [required (default)] {optional (default)}`
-{{< /hint >}}
-
-{{< hint type=important title="Before proceeding!" >}}
-It's important to know what constitutes as "Staff". Dishwasher will recognize any of the following as a Staff member:
-- A user with the configured `staffrole`.
-- Any of the bot's managers.
-- A user with the `MANAGE_GUILD` permission.
 {{< /hint >}}
 
 ## Banning

@@ -13,9 +13,9 @@ If the Survey system is enabled for your server, you'll need to supply reasons w
 
 ## Convenience note
 
-If you're using Dishwasher's commands to ban, the reason provided after the ban command will be used as the ban reason in the survey log.
+If you're using Sangou's commands to ban, the reason provided after the ban command will be used as the ban reason in the survey log.
 
-Dishwasher will also pull reasons from the audit log as well if you ban through methods other than the bot.
+Sangou will also pull reasons from the audit log as well if you ban through methods other than the bot.
 
 This applies to kicks and timeouts as well.
 

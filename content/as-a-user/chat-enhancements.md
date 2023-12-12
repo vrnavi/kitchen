@@ -3,7 +3,7 @@ title: Chat Enhancements
 weight: 0
 ---
 
-Dishwasher holds a number of features to add to a conversation.
+Sangou holds a number of features to add to a conversation.
 
 <!--more-->
 
@@ -17,11 +17,11 @@ If enabled by your server's admins, you can quote a message simply by posting a 
 
 ## Linking
 
-If enabled by your server's admins, Dishwasher will automatically convert Twitter/X links into `vxtwitter.com` links.
+If enabled by your server's admins, Sangou will automatically convert Twitter/X links into `vxtwitter.com` links.
 
 ![Twitter Auto-Conversion](/img/examples/linking-example.png)
 
-Dishwasher will also convert TikTok links into `vxtiktok.com` links.
+Sangou will also convert TikTok links into `vxtiktok.com` links.
 
 ![Twitter Auto-Conversion](/img/examples/linking-tiktok-example.png)
 
@@ -33,7 +33,7 @@ If enabled by your server's admins, you can react to a message with a country's 
 
 Once translated, you can click the DeepL or Google Translate icon to switch between translation services.
 
-As Dishwasher uses DeepL's free tier, there is a limit of `500,000` characters a month that can be translated. You can check the usage with this command.
+As Sangou uses DeepL's free tier, there is a limit of `500,000` characters a month that can be translated. You can check the usage with this command.
 
 - `usage`<br>
 Shows how much of the current DeepL pool is used.

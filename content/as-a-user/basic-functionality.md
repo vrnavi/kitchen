@@ -3,7 +3,7 @@ title: Basic Functionality
 weight: -20
 ---
 
-These are what are considered the "essentials" for Dishwasher. Commands not part of any specific system are here.
+These are what are considered the "essentials" for Sangou. Commands not part of any specific system are here.
 
 <!--more-->
 
@@ -15,7 +15,7 @@ For your reference:
 - **{argument}** is an optional requirement.
 - argument **(default)** is the default if not specified.
 
-Dishwasher uses the `pls` invoker by default.
+Sangou uses the `pls` invoker by default.
 
 For example: `pls command [required (default)] {optional (default)}`
 {{< /hint >}}
@@ -51,7 +51,7 @@ Converts Base10 to Base16.
 Gives you a hug.
 
 - `install`<br>
-Gives you instructions on how to install a dishwasher.
+Gives you instructions on how to install a dishwasher?
 
 - `membercount`<br>
 Shows the current member count of the server.
