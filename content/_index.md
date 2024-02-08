@@ -9,6 +9,8 @@ Sangou is an actively maintained **Discord** bot, originally made for the [OneSh
 
 The bot is semi-public, and you may add it to your server by asking in the support server.
 
+This documentation aligns with version `0.3.2`.
+
 {{< button size="large" relref="/introduction/before-you-start" >}}View Documentation{{< /button >}}
 {{< button size="large" href="https://discord.gg/p3MvpSvXrm" >}}Support Server{{< /button >}}
 {{< button size="large" href="https://github.com/vrnavi/sangou" >}}GitHub Repository{{< /button >}}

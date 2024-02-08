@@ -32,3 +32,8 @@ Censors a survey's name.
 
 - `dump`/`d` [case ID or "l"]{-case ID for "l"}<br>
 Dumps user IDs for surveys. Users can use this too.
+
+- `repost`/`re` [cateID or "l"]<br>
+Reposts up to a certain case ID.<br>
+Use if you accidentally deleted a case.
+

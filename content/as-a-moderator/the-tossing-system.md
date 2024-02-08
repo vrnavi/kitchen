@@ -43,11 +43,6 @@ Here is a brief rundown from the OneShot Discord Server's Staff Handbook:
 
 ## Tossing commands
 
-- `archive` [user]<br>
-When performed in a Toss channel, will archive the current channel.<br>
-A user can be passed to name the archive after that user.<br>
-When performed elsewhere, will search the archives for a given user.
-
 - `toss` [target] {target 2, target 3...}<br>
 Tosses a target, creating a new session.<br>
 If performed in a Toss channel, will add the user(s) to the session.
@@ -58,7 +53,7 @@ Untosses a target, restoring their roles and removing them from the session.
 - `close`<br>
 Archives a session and removes the channel for you.
 
-- `sessions`<br>
+- `sessions`/`tossed`<br>
 {{< hint type="warning" title="Keep in mind">}}
 If this command shows users in a session, yet users are not tossed, this is a known bug.<br>
 Please contact renavi, or the person hosting the bot.<br>

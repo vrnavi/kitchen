@@ -77,6 +77,9 @@ This will not delete the messages themselves.
 
 ## Miscellaneous
 
+- `alert` [target]<br>
+Awaits a member's next message for up to a day.
+
 - `nickname` [target] {nickname}<br>
 Sets a users nickname. Send command by itself to reset.
 
