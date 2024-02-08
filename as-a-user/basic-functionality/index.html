@@ -9,7 +9,7 @@
 <meta name="referrer" content="no-referrer" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="color-scheme" content="light dark" />
-<meta name="generator" content="Hugo 0.121.1">
+<meta name="generator" content="Hugo 0.122.0">
 
 
   <meta name="description" content="These are what are considered the &ldquo;essentials&rdquo; for Sangou. Commands not part of any specific system are here." />
@@ -59,7 +59,7 @@
       "url" : "https://3gou.0ccu.lt/as-a-user/basic-functionality/",
       "headline": "Basic Functionality",
       "description": "These are what are considered the “essentials” for Sangou. Commands not part of any specific system are here.",
-      "wordCount" : "284",
+      "wordCount" : "368",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -663,10 +663,10 @@
               
                 <span class="flex">
                   <a
-                    href="/as-a-user/custom-prefixes/"
+                    href="/as-a-user/custom-shortcuts/"
                     class="gdoc-nav__entry"
                   >
-                    Custom Prefixes
+                    Custom Shortcuts
                   </a>
                 </span>
               
@@ -1353,6 +1353,10 @@ Returns an avatar of a user.</p>
 Returns an avatar of the server.</p>
 </li>
 <li>
+<p><code>choose</code> [options]&hellip;<br>
+Chooses from a list of options.</p>
+</li>
+<li>
 <p><code>clapifier</code> [input]<br>
 don&rsquo;t 👏 call 👏 yourself 👏 pansexual 👏 if 👏 you&rsquo;ve 👏 never 👏 deepthroated 👏 a 👏 pan 👏</p>
 </li>
@@ -1365,12 +1369,25 @@ Shows an image of the color you specify.</p>
 Converts Base16 to Base10.</p>
 </li>
 <li>
+<p><code>diff</code> [file/string] [file/string]<br>
+Diffs between two files or two strings.</p>
+</li>
+<li>
+<p><code>google</code> [query]<br>
+Searches Google for something.</p>
+</li>
+<li>
+<p><code>hash</code> [file]<br>
+Gets CRC32, MD5, and SHA1 for a file.</p>
+</li>
+<li>
 <p><code>hello</code><br>
 Says hello to you.</p>
 </li>
 <li>
-<p><code>help</code><br>
-Gives you a link to this site.</p>
+<p><code>help</code> {command}<br>
+Gives you a link to this site.<br>
+If a command is specified, shows help for said command.</p>
 </li>
 <li>
 <p><code>hex</code> [number]<br>
@@ -1383,6 +1400,10 @@ Gives you a hug.</p>
 <li>
 <p><code>install</code><br>
 Gives you instructions on how to install a dishwasher?</p>
+</li>
+<li>
+<p><code>jump</code><br>
+Posts a link to the very beginning of the channel.</p>
 </li>
 <li>
 <p><code>membercount</code><br>
@@ -1406,7 +1427,11 @@ Creates a poll, with reaction based voting.</p>
 </li>
 <li>
 <p><code>progressbar</code>/<code>loadingbar</code><br>
-Shows a progress bar of how much the year has passed.</p>
+Shows a progress bar of how much the year has passed.<br>
+Will adapt to your <a
+  class="gdoc-markdown__link"
+  href="/as-a-user/advanced-functionality/#timezones"
+>timezone</a> if you have one set.</p>
 </li>
 <li>
 <p><code>rehost</code>/<code>catbox</code>/<code>imgur</code> [attachment or link 200MB or under]<br>
@@ -1428,6 +1453,11 @@ Gives you a link to the bot&rsquo;s support server.</p>
 <li>
 <p><code>staff</code><br>
 Shows the currently active Staff members.</p>
+</li>
+<li>
+<p><code>temp</code>/<code>temperature</code> [temperature] [unit] {conversion}<br>
+Converts a temperature to a given unit,<br>
+or to all possible units if unspecified.</p>
 </li>
 <li>
 <p><code>youtube</code>/<code>yt</code> [search term]<br>
